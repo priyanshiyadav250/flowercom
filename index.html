@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flower Haven</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Flower Haven: Explore the Beauty of Nature</h1>
+</header>
+
+<main>
+    <section id="flowers">
+        <h2>Explore Flowers</h2>
+        <div class="flower" data-name="Rose">
+            <img src="rose.jpg" alt="Rose">
+            <h3>Rose</h3>
+        </div>
+        <div class="flower" data-name="Lily">
+            <img src="lily.jpg" alt="Lily">
+            <h3>Lily</h3>
+        </div>
+        <!-- Add more flowers as needed -->
+    </section>
+
+    <section id="comment-box">
+        <h2>Share Your Favorite Flower</h2>
+        <textarea id="comment" placeholder="Type your favorite flower here..."></textarea>
+        <button onclick="saveComment()">Submit</button>
+    </section>
+
+    <section id="comments">
+        <h2>Comments</h2>
+        <ul id="comment-list">
+            <!-- Comments will be displayed here -->
+        </ul>
+    </section>
+</main>
+
+<script src="scriptflower.js"></script>
+</body>
+</html>
